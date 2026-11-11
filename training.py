@@ -14,9 +14,9 @@ from utils.jsonL import split_and_save, SPLITS_DIR
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 # Config
-LORA_DIR = "/home/mushrat/MT-model-training-pipeline/MT-Model-Taining-Pipeline/output/lora"
-GGUF_DIR = "/home/mushrat/MT-model-training-pipeline/MT-Model-Taining-Pipeline/output/model"
-MLFLOW_DIR = "/home/mushrat/MT-model-training-pipeline/MT-Model-Taining-Pipeline/output/mlflow"
+LORA_DIR = "/home/mushrat/MT-model-training-pipeline/MT-Model-Training-Pipeline/output/lora"
+GGUF_DIR = "/home/mushrat/MT-model-training-pipeline/MT-Model-Training-Pipeline/output/model"
+MLFLOW_DIR = "/home/mushrat/MT-model-training-pipeline/MT-Model-Training-Pipeline/output/mlflow"
 MLFLOW_EXPERIMENT_NAME = "mt_gemma_finetuning"
 MAX_SEQ_LEN = 4096
 BATCH_SIZE = 4
